@@ -1,0 +1,179 @@
+*{
+    font-family: Trebuchet MS;
+    color:#4e4e4e;
+}
+body{
+    background: #f7f7f7;
+}
+body, ul, li, p, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background:#e5e5e5;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    padding: 0;
+    background: url(images/logo.png) no-repeat;
+    text-indent: -10000px;
+    width:140px;
+}
+
+nav ul li{
+    float: left;
+    margin-left:22px;
+    padding: 30px 0 30px 0;
+}
+nav .green{
+    color:#1abb9c;
+}
+#main-banner{
+    color:white;
+    max-width:100%;
+    overflow: hidden;
+    max-height: 500px;
+   
+}
+#services{
+    border-bottom-style: solid ;
+    border-bottom-color: #dcdcdc;
+   
+}
+#services ul{
+    margin-top:60px;
+    margin-bottom:60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#services ul li{
+    text-align: center;
+    max-width: 250px;
+}
+#services h3{
+    margin:20px 0px 10px 0px;
+    padding: 0;
+    font-size: 18px;
+}
+#services p{
+    color: #616161;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+#latest-work h2{
+    margin: 60px 0 20px 0;
+}
+#latest-work ul{
+    display: flex;
+    justify-content: space-between;
+}
+#latest-work h3{
+    font-size:18px;
+    margin-top: 10px;
+}
+#latest-work .tags{
+    color:#a8a8a8;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#latest-work p{
+    color:#5c5c5c;
+    font-size: 14px;
+}
+#latest-work li{
+    max-width: 380px;
+}
+#quote{
+    padding: 60px;
+    text-align: center;
+    margin-top:60px;
+    background:#efefef;
+}
+#quote img{
+    margin-bottom: 25px;
+}
+#quote p{
+    width:60%;
+    margin:auto;
+    color:#a1a1a1;
+    font-size: 20px;
+}
+footer{
+    background: #1c1c1c;
+}
+footer .flex-container{
+    display:flex;
+    justify-content: space-between;
+    border-bottom-style: solid ;
+    border-bottom-color: #353535;
+}
+footer ul{
+    max-width:280px;
+}
+footer h4{
+    font-size: 18px;
+    margin-top:40px;
+    margin-bottom:10px;
+    color:#6c6c6c;
+}
+footer li{
+    line-height: 1.6em;
+    font-size: 14px;
+    color:#cacaca;
+    margin-bottom: 30px;
+}
+footer .addres{
+    margin: 0;
+}
+
+footer .tw{
+    list-style-image: url(images/tweet.png);
+}
+
+footer .post{
+    margin: 0;
+}
+footer #copyright{
+    padding:50px 0;
+    color:#cacaca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
