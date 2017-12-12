@@ -1,8 +1,8 @@
-$(document).ready(function(){
+(document).ready(function(){
 
-    $("#burger-nav").on("click", function(){
+    ("#burger-nav").on("click", function(){
     
-        $("header nav ul").toggleClass("open");
+        ("header nav ul").toggleClass("open");
         
     });
 
